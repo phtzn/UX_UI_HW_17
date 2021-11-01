@@ -1,16 +1,107 @@
+body{
+    background-color: black;
+}
+
 .inline-block{
     display: inline-block;
-    vertical-align: top;
+}
+.logo img{
+    width: 80px;
+    opacity: 40%;
+    padding: 10%;
+    margin-left: 20px;
+}
+.navigation{
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+ul {
+    list-style-type: none;
+    font-family: "Proxima Nova Semibold",sans-serif;
+    font-size: 12px;
+    opacity: 60%;
+  }
+
+h1{
+    font-family: "Proxima Nova Bold", sans-serif;
+    color: white;
+    font-size: 76px;
+    margin-left: 200px;
+    margin-right: 600px;
 }
 
-.logo{
-    width: 23%;
-    padding: 1%;
+h2{
+    font-family: "Proxima Nova Light", sans-serif;
+    color: white;
+    font-size: 48px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
-nav{
-    width: 73%;
-    padding: 1%;
+.inline-block li{
+      color: white;
+      float: left;
+      padding: 30px;
+      display: block;
+  }
+
+.content{
+    padding:2%;
+}
+
+.content img {
+    padding:3%;
+    height:500px;
+    border-radius: 15%;
+    float: right;
+    margin-right:200px;
+}
+
+footer{
+    background-color:#161616;
+    height: 250px;
+}
+
+footer p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.left {
     display: inline-block;
+    padding: 2%;
+    width:30%;
+    font-family: "Proxima Nova Semibold", sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.left img {
+    margin-right: 200px;
+    margin-left: 200px;
+    height: 70px;
+    opacity: 60%;
+}
+
+
+.sociallinks {
+    display: inline-block;
+    padding: 2%;
+    width:30%;
+    float: right;
+    font-family: "Proxima Nova Semibold", sans-serif;
+    color: white;
+    font-size: 12px;
+    opacity: 60%;
+}
+
+a:link{
+    color: white;
+}
+a:visited {
+    color: magenta;
 }
 
