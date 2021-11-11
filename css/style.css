@@ -110,16 +110,20 @@ a:visited {
 // MY SKILLS SECTION //
 
 .mySkills {
-    display: flex;
-    flex-direction:
+    display: grid;
+    grid-template-rows: 1fr 2frs;
 }
 
 .mySkills h1{
-    text-align:center;
+    sss
 }
 .apps{
-    width:50%;
+    float: left;
+    margin-left: 200px;
+    text-align: left;
 }
 .tools {
-    width:50%;
+    float: right;
+    margin-right: 200px;
+    text-align: left;
 }
