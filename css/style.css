@@ -5,6 +5,7 @@ body{
 .inline-block{
     display: inline-block;
 }
+
 .logo img{
     width: 80px;
     opacity: 40%;
@@ -18,23 +19,17 @@ body{
     margin-left: 200px;
     margin-right: 200px;
 }
-.navigation ul {
+ul {
     list-style-type: none;
     font-family: "Proxima Nova Semibold",sans-serif;
     font-size: 12px;
     opacity: 60%;
   }
-.mySkills ul {
-    list-style-type: none;
-    font-family: "Proxima Nova Semibold",sans-serif;
-    font-size: 12px;
-    color: white;
-}
 
 h1{
     font-family: "Proxima Nova Bold", sans-serif;
     color: white;
-    font-size: 76px;
+    font-size: 72px;
     margin-left: 200px;
     margin-right: 600px;
 }
@@ -42,15 +37,7 @@ h1{
 h2{
     font-family: "Proxima Nova Light", sans-serif;
     color: white;
-    font-size: 48px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-h3 {
-    font-family: "Proxima Nova Light", sans-serif;
-    color: white;
-    font-size: 18px;
+    font-size: 36px;
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -79,9 +66,8 @@ footer{
     height: 250px;
 }
 
-footer p {
+.left p {
     margin-left: 200px;
-    margin-right: 200px;
 }
 
 .left {
@@ -106,6 +92,8 @@ footer p {
     padding: 2%;
     width:30%;
     float: right;
+    text-align: right;
+    margin-right: 200px;
     font-family: "Proxima Nova Semibold", sans-serif;
     color: white;
     font-size: 12px;
@@ -119,8 +107,3 @@ a:visited {
     color: magenta;
 }
 
-.apps {
-    display: flex;
-    flex-direction: column;
-    width: 33%
-}
